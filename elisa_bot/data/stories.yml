@@ -1,0 +1,45 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: distinct_purchase_order
+  steps:
+  - intent: distinct_purchase_order
+  - action: action_distinct_purchase_order
+
+- story: purchase_by_type
+  steps:
+  - intent: purchase_by_type
+  - action: action_purchase_by_type
+
+- story: out_of_scope
+  steps:
+  - intent: out_of_scope
+  - action: action_out_of_scope

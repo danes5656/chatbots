@@ -1,0 +1,10 @@
+[
+  {
+    "name": "purchase_order_typ",
+    "pattern": "(\\bWeb\\b|\\bInbound\\b|\\bFax\\b|\\bOutbound\\b|\\bEmail\\b|\\bWebShopMobile\\b|\\bEDI\\b)"
+  },
+  {
+    "name": "mat_group",
+    "pattern": "(\\bBeer\\b|\\bSoft\\ Drink\\b|\\bWater\\b|\\bOther\\ beverages\\b|\\bCider\\b|\\bWine\\b|\\bEnergy\\ Drink\\b|\\bSpirits\\ excluding\\ FABs\\ \\&\\ Fort\\ Win\\b|\\bFlavoured\\ Alcoholic\\ Beverages\\b)"
+  }
+]

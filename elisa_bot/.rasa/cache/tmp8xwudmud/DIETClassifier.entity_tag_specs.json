@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-mat_group",
+      "2": "I-mat_group",
+      "3": "L-mat_group",
+      "4": "U-mat_group",
+      "5": "B-puchase_order_type",
+      "6": "I-puchase_order_type",
+      "7": "L-puchase_order_type",
+      "8": "U-puchase_order_type",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-mat_group": 1,
+      "I-mat_group": 2,
+      "L-mat_group": 3,
+      "U-mat_group": 4,
+      "B-puchase_order_type": 5,
+      "I-puchase_order_type": 6,
+      "L-puchase_order_type": 7,
+      "U-puchase_order_type": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
